@@ -1,0 +1,39 @@
+.feature img{
+	border-radius: $default-border-radius;
+	@include size(75% auto);
+}
+
+.customer img{
+	border-radius: $default-border-radius;
+	@include size(150px);
+}
+
+.hero {
+	text-align: center;
+	.wrap {
+	padding: 60px 0;
+}
+}
+.hero .overlay{
+	background: rgba($yellow, .5);
+}
+
+.quote {
+	font-style: italic;
+	font-family: $ubuntu;
+	}
+
+.testimonials{
+	background: $lightGreen;
+	text-align: center;
+	.name {
+	display: block;
+	
+}
+}
+
+.sidebar-wrap{
+	padding: 5px;
+	border: 5px solid $red;
+	border-radius: 6px;
+}

@@ -1,0 +1,11 @@
+.site-header {
+	background-color: $yellow;
+}
+.header-nav a {
+	color: $darkGreen;
+	margin: 0;
+	
+	&:hover {
+		color: $red;
+	}
+}

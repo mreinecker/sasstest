@@ -1,0 +1,24 @@
+{
+  "name": "sasstest",
+  "description": "testing out sass",
+  "main": "scripts.js",
+  "authors": [
+    "Marc Reinecker <mreinecker@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "susy": "^3.0.1",
+    "normalize-css": "^7.0.0",
+    "jquery-backstretch": "^2.1.16"
+  }
+}
